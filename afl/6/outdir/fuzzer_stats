@@ -1,0 +1,27 @@
+start_time        : 1503328129
+last_update       : 1503414498
+fuzzer_pid        : 25425
+cycles_done       : 3
+execs_done        : 105601296
+execs_per_sec     : 461.44
+paths_total       : 8022
+paths_favored     : 1194
+paths_found       : 8021
+paths_imported    : 0
+max_depth         : 21
+cur_path          : 8015
+pending_favs      : 0
+pending_total     : 5758
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 9.81%
+unique_crashes    : 528
+unique_hangs      : 34
+last_path         : 1503408190
+last_crash        : 1503407087
+last_hang         : 1503375693
+execs_since_crash : 4568672
+exec_timeout      : 20
+afl_banner        : cxxfilt
+afl_version       : 2.43b
+command_line      : fuzzers/afl-2.43b/afl-fuzz -i /home/gklees/Fuzzing/rundata/afl/6/indir -o /home/gklees/Fuzzing/rundata/afl/6/outdir /home/gklees/Fuzzing/bin/binutils/cxxfilt
